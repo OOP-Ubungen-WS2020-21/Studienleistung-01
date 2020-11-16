@@ -61,5 +61,62 @@ Sie können überprüfen, ob Ihre Lösung dieser Vorgabe entspricht, indem Sie d
 zweite Karte Flowers2.xml laden und mit Ihrem Code testen.  
   
 **Hilfsmethoden:** Legen Sie eigenständig Methoden an, die Ihnen dabei helfen, häufig auftretende Bewegungsabläufe von Bouncer auszulagern.  
+  
+![Diese Blumen sammelt Bouncer ein.](docs/Flowers.png){ width=50% }
+  
 
+## Aufgabe 2: Bouncer gräbt Tunnel
+Die zweite Aufgabe ist anspruchsvoller: am unteren Rand der Karte ist ein wichtiger Rohstoff auf einem roten
+Feld deponiert. Bouncer muss sich durch die blaue Erde graben und dabei hartem Felsgestein ausweichen, um
+dorthin zu gelangen und den Rohstoff aufzusammeln indem er das Feld weissfärbt.  
+Finden Sie einen Weg, wie Sie Bouncer nach unten steuern können. Dabei müssen Sie darauf achten, dass der
+Rohstoff auf einem beliebigen Feld am unteren Rand liegen kann. Die Hindernisse am unteren Rand können
+maximal ein Feld hoch sein.  
+Bouncer sollte diese Aufgabe für verschiedene Karten lösen können. Sie können überprüfen, ob Ihre Lösung
+dieser Vorgabe entspricht, indem Sie die im Starterpaket mitgelieferte zweite Karte Tunnel2.xml laden und mit
+Ihrem Code testen. Folgende Annamen gelten:
+- Die Karte ist immer in zwei Bereiche getrennt: Luft (Weisse Felder) und Erde (blaue Felder).
+- Innerhalb der blauen Felder können Hindernisse (schwarze Felder) liegen - Diese liegen nie an der Oberfläche.
+- Die Hindernisse haben immer einen Abstand von mind. einem Feld untereinander.
+- Sollten Hindernisse am unteren Rand liegen, sind diese maximal ein Feld groß.
+- Der zu findende Rohstoff (rotes Feld) ist immer ein Feld groß und liegt immer am unteren Rand der Karte.  
+
+**Vorgehen:** Die gestellte Aufgabe ist nicht trivial. Der Schlüssel zur Lösung liegt in einer sorgfältigen Analyse des
+Problems, der sinnvollen Strukturierung des Programms und einer korrekten Abarbeitung der unterschiedlichen
+Fälle die bei einer Entscheidung während der Wegfindung nötig sind. Wie bei den bisherigen Bouncer-Aufgaben
+wird es darauf ankommen, dass Sie die elementare Aufgabe identifizieren, die Bouncer solange wiederholen
+muss, bis das Programm einen bestimmten Endzustand (hier: Bouncer steht auf dem roten Feld und färbt es
+weiss) erreicht hat. Als Hilfestellung dienen die folgende Fragen, die Sie sich zu Beginn der Bearbeitung stellen
+sollten.
+- Wann ist das komplette Problem gelöst?
+- Wie sieht der zu erreichende Endzustand aus und wie lässt sich im Programm prüfen ob dieser Zustand
+eingetreten ist?
+- Was muss wiederholt erledigt werden um den Hindernissen auszuweichen?
+- Welche Informationen über die aktuelle Umgebung müssen eingeholt werden um eine sinnvolle
+Entscheidung zu treffen?  
+
+Beginnen Sie mit der Lösung eines kleinen Teilproblems, z.B. damit, Bouncer sich so lange dreht, bis er nach
+unten schaut. Nehmen Sie sich dann den nächsten Schritt vor: Bouncer bewegt sich so lange nach unten, bis er
+ein blaues Feld erreicht. Im weiteren Schritt färben Sie dieses Feld weiss und steigen weiter ab.  
+Es könnte sinnvoll sein, das Problem generell in zwei Schritte zu teilen: Zuerst an den unteren Rand gelangen,
+dann den Rohstoff suchen. Indem Sie sich auf kleine, gut durchführbare Teilprobleme konzentrieren, machen
+Sie das Gesamtproblem handhabbar. 
+
+![Bouncer als Tunnelgraeber.](docs/Tunnel.png){ width=50% }  
+
+
+## Aufgabe 3: GraphicsApp - Kreisfahrt
+
+Für die Lösung der 3. Aufgabe sollen Sie einen Kreis mit festem Radius im Uhrzeigersinn an den Rändern der
+Zeichenfläche entlang animieren. Der Kreis soll links oben starten und sich nach rechts bewegen, bis er an das
+Ende der Zeichenfläche stößt. Anschließend soll er die Richtung wechseln und sich am Rand entlang nach
+unten bewegen. Nach diesem Prinzip soll der Kreis den gesamten Rand der Zeichenfläche abfahren. Bei jedem
+Richtungswechsel soll der Kreis die Farbe zufällig wechseln.
+- Der Kreis darf sich nicht aus der Zeichenfläche heraus bewegen
+- In jeder Ecke bzw. bei jedem Richtungswechsel soll der Kreis die Farbe zufällig ändern
+- Die Animation soll kontinuierlich laufen, der Kreis soll sich also ständig im Uhrzeigersinn am Rand entlang
+bewegen
+- Achten Sie darauf, dass Sie den Kreis nur einmalig instantiieren  
+
+![Skizze der Kreisbewegung.](docs/Circle.png){ width=50% }
 
