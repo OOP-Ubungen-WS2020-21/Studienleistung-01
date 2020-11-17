@@ -1,6 +1,6 @@
 ---
 title: Template
-author: Zuletzt bearbeitet von Alexander Bazo
+author: Zuletzt bearbeitet von Jürgen Hahn, Martina Emmert und Alexander Bazo
 documentclass: scrartcl
 classoption:
   - a4paper
