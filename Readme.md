@@ -55,10 +55,10 @@ Dabei soll Bouncer die Karte ablaufen und prüfen, ob er auf einem farbigen Feld
 
 ![Dieses Chaos putzt Bouncer.](docs/Mess-Start.png){ width=50% }  
 
+![Bouncers Endergebnis.](docs/Mess-End.png){ width=50% } 
+
 Am Ende sollen die gesammelten Kacheln sortiert am unteren Ende der Karte wieder aufgestapelt werden.
 Hierfür zählt Bouncer - während er die Kacheln einsammelt - für jede der drei Farben mit, wie viele er eingesammelt hat.
-
-![Bouncers Endergebnis.](docs/Mess-End.png){ width=50% } 
 
 Achten Sie darauf, dass Ihre Lösung für beliebig auf der Karte verteilte Kacheln gilt.
 Sie können überprüfen, ob Ihre Lösung dieser Vorgabe entspricht, indem Sie die im Starterpaket mitgelieferte
