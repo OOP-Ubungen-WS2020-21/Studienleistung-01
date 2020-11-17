@@ -3,14 +3,14 @@ package Aufgabe1;
 import de.ur.mi.bouncer.apps.BouncerApp;
 import de.ur.mi.bouncer.apps.BouncerLauncher;
 
-public class BouncerInvertiert extends BouncerApp{
+public class BouncerPutzt extends BouncerApp{
 
     @Override
     public void bounce() {
-        loadMap("Flowers");
+        loadMap("Mess");
     }
 
     public static void main(String[] args) {
-        BouncerLauncher.launch("BouncerInvertiert");
+        BouncerLauncher.launch("BouncerPutzt");
     }
 }
