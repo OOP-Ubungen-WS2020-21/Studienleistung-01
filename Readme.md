@@ -49,20 +49,22 @@ wurden.
 
 Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Ubungen-WS2020-21/Studienleistung-01/archive/Starterpaket.zip).
 
-## Aufgabe 1: Bouncer färbt Blumen
-In der ersten Aufgabe soll Bouncer die Blütenblätter von mehreren Blumen grün einfärben, während der
-Stempel blau bleiben soll. Es gibt auf der Karte nur vollständige Blumen. Die Aufgabe ist erst erledigt, wenn alle
-Blumen auf der Karte grün gefärbte Blütenblätter haben.
-Dazu muss Bouncer das gesamte Feld ablaufen und prüfen, ob das Feld, auf dem er steht, einfärben soll. Wenn
-Bouncer auf dem grünen Feld rechts unten im Eck ankommt, und alle in Frage kommenden Felder gefärbt hat,
-ist er fertig.
-Achten Sie darauf, dass Ihre Lösung für beliebige Blumenpositionen ausser dem letzten Feld rechts unten gilt.
+## Aufgabe 1: Bouncer räumt auf
+In der ersten Aufgabe soll Bouncer Chaos beseitigen, indem er die bunten Kacheln aufsammel und nach Farbe sortiert.  
+Dabei soll Bouncer die Karte ablaufen und prüfen, ob er auf einem farbigen Feld steht und dies gegebenenfalls weiß einfärben.  
+
+![Dieses Chaos putzt Bouncer.](docs/Mess-Start.png){ width=50% }  
+
+Am Ende sollen die gesammelten Kacheln sortiert am unteren Ende der Karte wieder aufgestapelt werden.
+Hierfür zählt Bouncer - während er die Kacheln einsammelt - für jede der drei Farben mit, wie viele er eingesammelt hat.
+
+![Bouncers Endergebnis.](docs/Mess-End.png){ width=50% } 
+
+Achten Sie darauf, dass Ihre Lösung für beliebig auf der Karte verteilte Kacheln gilt.
 Sie können überprüfen, ob Ihre Lösung dieser Vorgabe entspricht, indem Sie die im Starterpaket mitgelieferte
-zweite Karte Flowers2.xml laden und mit Ihrem Code testen.  
+zweite Karte Mess2.xml laden und mit Ihrem Code testen.  
   
 **Hilfsmethoden:** Legen Sie eigenständig Methoden an, die Ihnen dabei helfen, häufig auftretende Bewegungsabläufe von Bouncer auszulagern.  
-  
-![Diese Blumen sammelt Bouncer ein.](docs/Flowers.png){ width=50% }
   
 
 ## Aufgabe 2: Bouncer gräbt Tunnel
