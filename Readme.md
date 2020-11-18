@@ -12,12 +12,12 @@ header-includes: |
     \pagestyle{fancy}
     \fancyhf{}
     \rhead{OOP WS 2020/21}
-    \lhead{U00 | Template}
+    \lhead{Studienleistung I}
     \cfoot{\includegraphics[height=2cm]{docs/footer.png}}
     \fancypagestyle{plain}{
       \fancyhf{}
       \rhead{OOP WS 2020/21}
-      \lhead{U00 | Template}
+      \lhead{Studienleistung I}
       \cfoot[C]{\includegraphics[height=2cm]{docs/footer.png}}}
 ---
 
