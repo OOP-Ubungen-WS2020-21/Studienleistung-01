@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Bouncer-Library-v1.3.1" level="project" />
+    <orderEntry type="library" name="GraphicsApp-v1.4.4" level="project" />
   </component>
 </module>
