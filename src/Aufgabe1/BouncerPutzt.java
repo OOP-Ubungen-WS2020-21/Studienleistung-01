@@ -7,7 +7,7 @@ public class BouncerPutzt extends BouncerApp{
 
     @Override
     public void bounce() {
-        loadMap("Mess");
+        loadMap("Mess2");
     }
 
     public static void main(String[] args) {

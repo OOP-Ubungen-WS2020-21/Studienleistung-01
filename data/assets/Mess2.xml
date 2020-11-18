@@ -2,6 +2,13 @@
 <map>
 <bouncer x="0" y="0"  value="" />
 <color x="3" y="0"  value="RED" />
+<color x="4" y="0"  value="RED" />
+<color x="5" y="0"  value="RED" />
+<color x="7" y="0"  value="RED" />
+<color x="7" y="1"  value="GREEN" />
+<color x="11" y="1"  value="GREEN" />
+<color x="10" y="3"  value="GREEN" />
+<color x="4" y="10"  value="GREEN" />
 <color x="6" y="0"  value="GREEN" />
 <color x="12" y="0"  value="BLUE" />
 <color x="14" y="0"  value="GREEN" />
