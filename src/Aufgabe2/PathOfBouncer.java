@@ -3,14 +3,14 @@ package Aufgabe2;
 import de.ur.mi.bouncer.apps.BouncerApp;
 import de.ur.mi.bouncer.apps.BouncerLauncher;
 
-public class BouncerImTunnel extends BouncerApp {
+public class PathOfBouncer extends BouncerApp {
 
     @Override
     public void bounce() {
-        loadMap("Tunnel");
+        loadMap("Path");
     }
 
     public static void main(String[] args) {
-        BouncerLauncher.launch("BouncerImTunnel");
+        BouncerLauncher.launch("PathOfBouncer");
     }
 }

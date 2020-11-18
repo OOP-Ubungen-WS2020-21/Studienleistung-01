@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<map>
+    <bouncer x="5" y="13"  value="" />
+
+    <color x="5" y="13"  value="GREEN" />
+    <color x="6" y="13"  value="GREEN" />
+    <color x="7" y="13"  value="GREEN" />
+
+    <color x="7" y="12"  value="GREEN" />
+    <color x="7" y="11"  value="GREEN" />
+
+    <color x="6" y="11"  value="GREEN" />
+    <color x="5" y="11"  value="GREEN" />
+    <color x="4" y="11"  value="GREEN" />
+    <color x="3" y="11"  value="GREEN" />
+
+    <color x="3" y="12"  value="GREEN" />
+    <color x="3" y="13"  value="GREEN" />
+
+    <color x="2" y="13"  value="GREEN" />
+    <color x="1" y="13"  value="GREEN" />
+
+    <color x="1" y="12"  value="GREEN" />
+    <color x="1" y="11"  value="GREEN" />
+    <color x="1" y="10"  value="GREEN" />
+    <color x="1" y="9"  value="GREEN" />
+    <color x="1" y="8"  value="GREEN" />
+
+
+    <color x="1" y="8"  value="GREEN" />
+    <color x="2" y="8"  value="GREEN" />
+    <color x="3" y="8"  value="GREEN" />
+    <color x="4" y="8"  value="GREEN" />
+    <color x="5" y="8"  value="GREEN" />
+    <color x="6" y="8"  value="GREEN" />
+    <color x="7" y="8"  value="GREEN" />
+    <color x="8" y="8"  value="GREEN" />
+    <color x="9" y="8"  value="GREEN" />
+
+    <color x="9" y="9"  value="GREEN" />
+    <color x="9" y="10"  value="GREEN" />
+
+    <color x="10" y="10"  value="GREEN" />
+    <color x="11" y="10"  value="GREEN" />
+    <color x="12" y="10"  value="GREEN" />
+    <color x="13" y="10"  value="GREEN" />
+
+    <color x="13" y="10"  value="GREEN" />
+    <color x="13" y="9"  value="GREEN" />
+    <color x="13" y="8"  value="GREEN" />
+    <color x="13" y="7"  value="GREEN" />
+    <color x="13" y="6"  value="GREEN" />
+    <color x="13" y="5"  value="GREEN" />
+    <color x="13" y="4"  value="GREEN" />
+
+    <color x="12" y="4"  value="GREEN" />
+    <color x="11" y="4"  value="GREEN" />
+    <color x="10" y="4"  value="GREEN" />
+
+    <color x="10" y="5"  value="GREEN" />
+    <color x="10" y="6"  value="GREEN" />
+
+    <color x="9" y="6"  value="GREEN" />
+    <color x="8" y="6"  value="GREEN" />
+    <color x="7" y="6"  value="GREEN" />
+
+    <color x="7" y="5"  value="GREEN" />
+    <color x="7" y="4"  value="GREEN" />
+    <color x="7" y="3"  value="GREEN" />
+    <color x="7" y="2"  value="GREEN" />
+    <color x="7" y="1"  value="GREEN" />
+
+    <color x="6" y="1"  value="GREEN" />
+    <color x="5" y="1"  value="GREEN" />
+    <color x="4" y="1"  value="GREEN" />
+    <color x="3" y="1"  value="GREEN" />
+    <color x="2" y="1"  value="GREEN" />
+
+    <color x="1" y="1"  value="RED" />
+</map>
