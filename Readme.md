@@ -108,18 +108,22 @@ Sie das Gesamtproblem handhabbar.
 ![Bouncer als Tunnelgraeber.](docs/Tunnel.png){ width=50% }  
 
 
-## Aufgabe 3: GraphicsApp - Kreisfahrt
+## Aufgabe 3: GraphicsApp - Meeting Circles
 
-Für die Lösung der 3. Aufgabe sollen Sie einen Kreis mit festem Radius im Uhrzeigersinn an den Rändern der
-Zeichenfläche entlang animieren. Der Kreis soll links oben starten und sich nach rechts bewegen, bis er an das
-Ende der Zeichenfläche stößt. Anschließend soll er die Richtung wechseln und sich am Rand entlang nach
-unten bewegen. Nach diesem Prinzip soll der Kreis den gesamten Rand der Zeichenfläche abfahren. Bei jedem
-Richtungswechsel soll der Kreis die Farbe zufällig wechseln.
-- Der Kreis darf sich nicht aus der Zeichenfläche heraus bewegen
-- In jeder Ecke bzw. bei jedem Richtungswechsel soll der Kreis die Farbe zufällig ändern
-- Die Animation soll kontinuierlich laufen, der Kreis soll sich also ständig im Uhrzeigersinn am Rand entlang
-bewegen
-- Achten Sie darauf, dass Sie den Kreis nur einmalig instantiieren  
+Für die Lösung der 3. Aufgabe sollen Sie vier Kreise in einer quadratischen Zeichenfläche platzieren und dann so animieren, damit sie sich in der Mitte treffen.
+Die vier Kreise haben den gleichen festen Radius und die gleiche Farbe.
+Die Kreise sollen in den Ecken der Zeichenfläche platziert werden, so dass sich deren Mittelpunkte auf den entsprechenden Diagonalen der Zeichenfläche befinden.
+Danach sollen sich die Kreise mit gleicher und konstanter Geschwindigkeit entlang der Diagonalen in die Mitte bewegen und gleichzeitig am Mittelpunkt ankommen.
+Sobald die Kreise am Mittelpunkt angekommen sind, sollen sie sich grau färben.
 
-![Skizze der Kreisbewegung.](docs/Circle.png){ width=50% }
+
+- Die Zeichenfläche soll quadratisch sein (z.B. 500x500)
+- Die Kreise sollen innerhalb der Zeichenfläche in den jeweiligen Ecken platziert werden, so dass sich deren Mittelpunkte auf einer Diagonale der Zeichenfläche befinden 
+- Die Kreise sollen sich mit gleicher Geschwindigkeit den Mittelpunkt nähern und diesen gleichzeitig erreichen
+- Am Mittelpunkt angekommen, sollen sich die Kreise grau färben
+- Achten Sie darauf, dass Sie jeden Kreis nur einmalig instantiieren  
+
+![Kreise in den Ecken](docs/task3_start.png){ width=50% }
+
+![Kreise im Mittelpunkt](docs/task3_done.png){ width=50% }
 
