@@ -116,7 +116,6 @@ Die Kreise sollen in den Ecken der Zeichenfläche platziert werden, so dass sich
 Danach sollen sich die Kreise mit gleicher und konstanter Geschwindigkeit entlang der Diagonalen in die Mitte bewegen und gleichzeitig am Mittelpunkt ankommen.
 Sobald die Kreise am Mittelpunkt angekommen sind, sollen sie sich grau färben.
 
-
 - Die Zeichenfläche soll quadratisch sein (z.B. 500x500)
 - Die Kreise sollen innerhalb der Zeichenfläche in den jeweiligen Ecken platziert werden, so dass sich deren Mittelpunkte auf einer Diagonale der Zeichenfläche befinden 
 - Die Kreise sollen sich mit gleicher Geschwindigkeit den Mittelpunkt nähern und diesen gleichzeitig erreichen
