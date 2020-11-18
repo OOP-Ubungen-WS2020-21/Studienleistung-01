@@ -56,9 +56,9 @@ Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe fi
 In der ersten Aufgabe soll Bouncer Chaos beseitigen, indem er die bunten Kacheln aufsammeln und nach Farbe sortiert.  
 Dabei soll Bouncer die Karte ablaufen und prüfen, ob er auf einem farbigen Feld steht und dies gegebenenfalls weiß einfärben.  
 
-![Dieses Chaos putzt Bouncer.](docs/Mess-Start.png){ width=50% }  
+![Dieses Chaos putzt Bouncer.](docs/Mess-Start.png){ width=25% }  
 
-![Bouncers Endergebnis.](docs/Mess-End.png){ width=50% } 
+![Bouncers Endergebnis.](docs/Mess-End.png){ width=25% } 
 
 Am Ende sollen die gesammelten Kacheln sortiert am unteren Ende der Karte wieder aufgestapelt werden.
 Hierfür zählt Bouncer - während er die Kacheln einsammelt - für jede der drei Farben mit, wie viele er eingesammelt hat.
@@ -77,11 +77,11 @@ In der zweiten Aufgaben soll Bouncer einen Weg entlang gehen, der durch grüne F
 Das soll Bouncer so lange tun, bis er das rote Zielfeld erreicht.
 Sollte Bouncer vom Weg abkommen, kehrt er zurück zur letzten bekannten Kachel des Weges und versucht in eine andere Richtung zu gehen.
 
-![Der Pfad den Bouncer gehen soll](docs/poc_start.png){ width=50% }
+![Der Pfad den Bouncer gehen soll](docs/poc_start.png){ width=25% }
 
 Am roten Zielfeld angekommen, färbt Bouncer das Feld blau, um seinen Erfolg zu feiern.
 
-![Der Pfad den Bouncer gehen soll](docs/poc_end.png){ width=50% }
+![Der Pfad den Bouncer gehen soll](docs/poc_end.png){ width=25% }
 
 Achten Sie darauf, dass Ihre Lösung für beliebige Pfade innerhalb der Karte funktioniert.
 Sie können überprüfen, ob Ihre Lösung dieser Vorgabe entspricht, indem Sie die im Starterpaket mitgelieferte
@@ -117,7 +117,7 @@ Sobald die Kreise am Mittelpunkt angekommen sind, sollen sie sich grau färben.
 **Variablen**: Zur Bearbeitung dieser Aufgabe benötigen Sie Variablen und Konstanten, mit deren Hilfe sie Koordinaten berechnen werden.
 **Decomposition**: Überlegen Sie welche Teilprobleme autreten, um die Aufgabe zu lösen und verwenden Sie dafür eigene Methoden.
  
-![Kreise in den Ecken](docs/task3_start.png){ width=50% }
+![Kreise in den Ecken](docs/task3_start.png){ width=25% }
 
-![Kreise im Mittelpunkt](docs/task3_done.png){ width=50% }
+![Kreise im Mittelpunkt](docs/task3_done.png){ width=25% }
 
