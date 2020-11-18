@@ -45,6 +45,9 @@ Die Qualität Ihres Codes fließt in die Gesamtnote mit ein: Nutzen Sie Decompos
 Sie ausreichend. Beachten Sie dazu die Kriterien für guten und schlechten Code, die in der Vorlesung erwähnt
 wurden.
 
+Sollten Sie Fragen haben oder Hilfe brauchen, können Sie im Discord unter der Kategorie Support in den Channel Studienleistung uns eine Nachricht hinterlassen.
+Wir stehen Ihnen dann zeitnah zur Seite über eine Direktnachricht. 
+
 ## Starterpaket
 
 Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Ubungen-WS2020-21/Studienleistung-01/archive/Starterpaket.zip).
@@ -90,7 +93,7 @@ Für den Pfad gelten folgende Bedingungen:
 - Der Pfad verläuft nie entlang der Kante von Bouncers Welt
 - Der Pfad überschneidet sich nie
 - Der Pfad hat keine Hindernisse
-- Der Pfad ist immer anhand mindestens eines weißen Feldes getrennt (zu sehen rechts oben im Beispielbild).
+- Der Pfad ist immer anhand mindestens eines weißen Feldes getrennt (siehe rechts oben im Beispielbild).
 
 **Decomposition:** Überlegen sie sich im Vorfeld genau auf welche Teilprobleme Sie stoßen werden, um diese Aufgabe zu lösen.
 Denken Sie darüber nach, mit welchen Befehlen sie Bouncer entlang des Weges schicken können.
@@ -111,8 +114,9 @@ Sobald die Kreise am Mittelpunkt angekommen sind, sollen sie sich grau färben.
 - Am Mittelpunkt angekommen, sollen sich die Kreise grau färben
 - Achten Sie darauf, dass Sie jeden Kreis nur einmalig instantiieren  
 
-**Variablen** Zur Bearbeitung dieser Aufgabe benötigen Sie Variablen und Konstanten, mit deren Hilfe sie Koordinaten berechnen werden.
-
+**Variablen**: Zur Bearbeitung dieser Aufgabe benötigen Sie Variablen und Konstanten, mit deren Hilfe sie Koordinaten berechnen werden.
+**Decomposition**: Überlegen Sie welche Teilprobleme autreten, um die Aufgabe zu lösen und verwenden Sie dafür eigene Methoden.
+ 
 ![Kreise in den Ecken](docs/task3_start.png){ width=50% }
 
 ![Kreise im Mittelpunkt](docs/task3_done.png){ width=50% }
