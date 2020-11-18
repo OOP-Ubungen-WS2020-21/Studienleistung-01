@@ -40,7 +40,7 @@ interpretieren Sie die Fragestellung nicht selbstständig. Bewertet wird, in wie
 Problem vollständig lösen. Wenn Sie die Aufgaben erfolgreich bearbeitet haben, können Sie Ihre Lösung gerne
 kreativ gestalten und erweitern; achten Sie dabei darauf, dass die eigentlichen Anforderungen weiterhin erfüllt
 bleiben.  
-Die Qualität Ihres Codes fließt in die Gesamtnote mit ein: Nutzen Sie Dekomposition um Ihre Programme
+Die Qualität Ihres Codes fließt in die Gesamtnote mit ein: Nutzen Sie Decomposition um Ihre Programme
 übersichtlich zu gestalten. Verwenden Sie sinnvolle Bezeichner für Variablen und Methoden und kommentieren
 Sie ausreichend. Beachten Sie dazu die Kriterien für guten und schlechten Code, die in der Vorlesung erwähnt
 wurden.
@@ -50,7 +50,7 @@ wurden.
 Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Ubungen-WS2020-21/Studienleistung-01/archive/Starterpaket.zip).
 
 ## Aufgabe 1: Bouncer räumt auf
-In der ersten Aufgabe soll Bouncer Chaos beseitigen, indem er die bunten Kacheln aufsammel und nach Farbe sortiert.  
+In der ersten Aufgabe soll Bouncer Chaos beseitigen, indem er die bunten Kacheln aufsammeln und nach Farbe sortiert.  
 Dabei soll Bouncer die Karte ablaufen und prüfen, ob er auf einem farbigen Feld steht und dies gegebenenfalls weiß einfärben.  
 
 ![Dieses Chaos putzt Bouncer.](docs/Mess-Start.png){ width=50% }  
@@ -59,6 +59,7 @@ Dabei soll Bouncer die Karte ablaufen und prüfen, ob er auf einem farbigen Feld
 
 Am Ende sollen die gesammelten Kacheln sortiert am unteren Ende der Karte wieder aufgestapelt werden.
 Hierfür zählt Bouncer - während er die Kacheln einsammelt - für jede der drei Farben mit, wie viele er eingesammelt hat.
+Sollte Bouncer mehr als 15 Kacheln einer Farbe aufgenommen haben, so startet er einen neuen Stapel rechts neben des ersten Stapels der Kacheln dieser Farbe, bevor er Stapel anderer Farben beginnt.
 
 Achten Sie darauf, dass Ihre Lösung für beliebig auf der Karte verteilte Kacheln gilt.
 Sie können überprüfen, ob Ihre Lösung dieser Vorgabe entspricht, indem Sie die im Starterpaket mitgelieferte
