@@ -49,7 +49,7 @@ wurden.
 
 Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Ubungen-WS2020-21/Studienleistung-01/archive/Starterpaket.zip).
 
-## Aufgabe 1: Bouncer räumt auf
+## Aufgabe 1: Bouncer cleans
 In der ersten Aufgabe soll Bouncer Chaos beseitigen, indem er die bunten Kacheln aufsammeln und nach Farbe sortiert.  
 Dabei soll Bouncer die Karte ablaufen und prüfen, ob er auf einem farbigen Feld steht und dies gegebenenfalls weiß einfärben.  
 
@@ -59,7 +59,9 @@ Dabei soll Bouncer die Karte ablaufen und prüfen, ob er auf einem farbigen Feld
 
 Am Ende sollen die gesammelten Kacheln sortiert am unteren Ende der Karte wieder aufgestapelt werden.
 Hierfür zählt Bouncer - während er die Kacheln einsammelt - für jede der drei Farben mit, wie viele er eingesammelt hat.
-Sollte Bouncer mehr als 15 Kacheln einer Farbe aufgenommen haben, so startet er einen neuen Stapel rechts neben des ersten Stapels der Kacheln dieser Farbe, bevor er Stapel anderer Farben beginnt.
+Bouncer startet einen neuen Stapel für Kacheln gleicher Farbe, wenn er diese nicht in eine Spalte passen.
+Bouncer macht das so lange, bis alle Kacheln dieser Farbe einsortiert sind.
+Erst dann beginnt Bouncer die Stapel der anderen Farben zu bauen.
 
 Achten Sie darauf, dass Ihre Lösung für beliebig auf der Karte verteilte Kacheln gilt.
 Sie können überprüfen, ob Ihre Lösung dieser Vorgabe entspricht, indem Sie die im Starterpaket mitgelieferte
@@ -67,60 +69,49 @@ zweite Karte Mess2.xml laden und mit Ihrem Code testen.
   
 **Hilfsmethoden:** Legen Sie eigenständig Methoden an, die Ihnen dabei helfen, häufig auftretende Bewegungsabläufe von Bouncer auszulagern.  
   
+## Aufgabe 2: Path of Bouncer
+In der zweiten Aufgaben soll Bouncer einen Weg entlang gehen, der durch grüne Felder gekennzeichnet ist.
+Das soll Bouncer so lange tun, bis er das rote Zielfeld erreicht.
+Sollte Bouncer vom Weg abkommen, kehrt er zurück zur letzten bekannten Kachel des Weges und versucht in eine andere Richtung zu gehen.
 
-## Aufgabe 2: Bouncer gräbt Tunnel
-Die zweite Aufgabe ist anspruchsvoller: am unteren Rand der Karte ist ein wichtiger Rohstoff auf einem roten
-Feld deponiert. Bouncer muss sich durch die blaue Erde graben und dabei hartem Felsgestein ausweichen, um
-dorthin zu gelangen und den Rohstoff aufzusammeln indem er das Feld weissfärbt.  
-Finden Sie einen Weg, wie Sie Bouncer nach unten steuern können. Dabei müssen Sie darauf achten, dass der
-Rohstoff auf einem beliebigen Feld am unteren Rand liegen kann. Die Hindernisse am unteren Rand können
-maximal ein Feld hoch sein.  
-Bouncer sollte diese Aufgabe für verschiedene Karten lösen können. Sie können überprüfen, ob Ihre Lösung
-dieser Vorgabe entspricht, indem Sie die im Starterpaket mitgelieferte zweite Karte Tunnel2.xml laden und mit
-Ihrem Code testen. Folgende Annamen gelten:
-- Die Karte ist immer in zwei Bereiche getrennt: Luft (Weisse Felder) und Erde (blaue Felder).
-- Innerhalb der blauen Felder können Hindernisse (schwarze Felder) liegen - Diese liegen nie an der Oberfläche.
-- Die Hindernisse haben immer einen Abstand von mind. einem Feld untereinander.
-- Sollten Hindernisse am unteren Rand liegen, sind diese maximal ein Feld groß.
-- Der zu findende Rohstoff (rotes Feld) ist immer ein Feld groß und liegt immer am unteren Rand der Karte.  
+![Der Pfad den Bouncer gehen soll](docs/poc_start.png){ width=50% }
 
-**Vorgehen:** Die gestellte Aufgabe ist nicht trivial. Der Schlüssel zur Lösung liegt in einer sorgfältigen Analyse des
-Problems, der sinnvollen Strukturierung des Programms und einer korrekten Abarbeitung der unterschiedlichen
-Fälle die bei einer Entscheidung während der Wegfindung nötig sind. Wie bei den bisherigen Bouncer-Aufgaben
-wird es darauf ankommen, dass Sie die elementare Aufgabe identifizieren, die Bouncer solange wiederholen
-muss, bis das Programm einen bestimmten Endzustand (hier: Bouncer steht auf dem roten Feld und färbt es
-weiss) erreicht hat. Als Hilfestellung dienen die folgende Fragen, die Sie sich zu Beginn der Bearbeitung stellen
-sollten.
-- Wann ist das komplette Problem gelöst?
-- Wie sieht der zu erreichende Endzustand aus und wie lässt sich im Programm prüfen ob dieser Zustand
-eingetreten ist?
-- Was muss wiederholt erledigt werden um den Hindernissen auszuweichen?
-- Welche Informationen über die aktuelle Umgebung müssen eingeholt werden um eine sinnvolle
-Entscheidung zu treffen?  
+Am roten Zielfeld angekommen, färbt Bouncer das Feld blau, um seinen Erfolg zu feiern.
 
-Beginnen Sie mit der Lösung eines kleinen Teilproblems, z.B. damit, Bouncer sich so lange dreht, bis er nach
-unten schaut. Nehmen Sie sich dann den nächsten Schritt vor: Bouncer bewegt sich so lange nach unten, bis er
-ein blaues Feld erreicht. Im weiteren Schritt färben Sie dieses Feld weiss und steigen weiter ab.  
-Es könnte sinnvoll sein, das Problem generell in zwei Schritte zu teilen: Zuerst an den unteren Rand gelangen,
-dann den Rohstoff suchen. Indem Sie sich auf kleine, gut durchführbare Teilprobleme konzentrieren, machen
-Sie das Gesamtproblem handhabbar. 
+![Der Pfad den Bouncer gehen soll](docs/poc_end.png){ width=50% }
 
-![Bouncer als Tunnelgraeber.](docs/Tunnel.png){ width=50% }  
+Achten Sie darauf, dass Ihre Lösung für beliebige Pfade innerhalb der Karte funktioniert.
+Sie können überprüfen, ob Ihre Lösung dieser Vorgabe entspricht, indem Sie die im Starterpaket mitgelieferte
+zweite Karte Labyrinth2.xml laden und mit Ihrem Code testen.
 
+Für den Pfad gelten folgende Bedingungen:
+- Der Pfad ist immer grün und das Zielfeld ist immer rot
+- Bouncer startet immer am Anfang des Pfades
+- Der Pfad verläuft nie entlang der Kante von Bouncers Welt
+- Der Pfad überschneidet sich nie
+- Der Pfad hat keine Hindernisse
+- Der Pfad ist immer anhand mindestens eines weißen Feldes getrennt (zu sehen rechts oben im Beispielbild).
+
+**Decomposition:** Überlegen sie sich im Vorfeld genau auf welche Teilprobleme Sie stoßen werden, um diese Aufgabe zu lösen.
+Denken Sie darüber nach, mit welchen Befehlen sie Bouncer entlang des Weges schicken können.
+Das ist besonders bei den Kurven wichtig.
+Legen Sie entsprechende eigene Methoden dafür an.
 
 ## Aufgabe 3: GraphicsApp - Meeting Circles
 
 Für die Lösung der 3. Aufgabe sollen Sie vier Kreise in einer quadratischen Zeichenfläche platzieren und dann so animieren, damit sie sich in der Mitte treffen.
 Die vier Kreise haben den gleichen festen Radius und die gleiche Farbe.
-Die Kreise sollen in den Ecken der Zeichenfläche platziert werden, so dass sich deren Mittelpunkte auf den entsprechenden Diagonalen der Zeichenfläche befinden.
+Die Kreise sollen in den Ecken der Zeichenfläche platziert werden, damit sich deren Mittelpunkte auf den entsprechenden Diagonalen der Zeichenfläche befinden.
 Danach sollen sich die Kreise mit gleicher und konstanter Geschwindigkeit entlang der Diagonalen in die Mitte bewegen und gleichzeitig am Mittelpunkt ankommen.
 Sobald die Kreise am Mittelpunkt angekommen sind, sollen sie sich grau färben.
 
 - Die Zeichenfläche soll quadratisch sein (z.B. 500x500)
-- Die Kreise sollen innerhalb der Zeichenfläche in den jeweiligen Ecken platziert werden, so dass sich deren Mittelpunkte auf einer Diagonale der Zeichenfläche befinden 
+- Die Kreise sollen innerhalb der Zeichenfläche in den jeweiligen Ecken platziert werden, damit sich deren Mittelpunkte auf einer Diagonale der Zeichenfläche befinden 
 - Die Kreise sollen sich mit gleicher Geschwindigkeit den Mittelpunkt nähern und diesen gleichzeitig erreichen
 - Am Mittelpunkt angekommen, sollen sich die Kreise grau färben
 - Achten Sie darauf, dass Sie jeden Kreis nur einmalig instantiieren  
+
+**Variablen** Zur Bearbeitung dieser Aufgabe benötigen Sie Variablen und Konstanten, mit deren Hilfe sie Koordinaten berechnen werden.
 
 ![Kreise in den Ecken](docs/task3_start.png){ width=50% }
 
