@@ -1,6 +1,6 @@
 ---
-title: Template
-author: Zuletzt bearbeitet von Jürgen Hahn, Martina Emmert und Alexander Bazo
+title: Studienleistung I
+author: Zuletzt bearbeitet von Jürgen Hahn
 documentclass: scrartcl
 classoption:
   - a4paper
@@ -22,7 +22,7 @@ header-includes: |
 ---
 
 
-# Template für Übungsaufgaben 
+# Studienleistung I
 
 ## Allgemeine Hinweise zur Studienleistung
 In dieser Studienleistung werden Sie mehrere Programmieraufgaben lösen. Um die Aufgaben zu bearbeiten,
