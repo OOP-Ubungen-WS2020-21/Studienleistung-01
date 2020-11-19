@@ -85,7 +85,7 @@ Am roten Zielfeld angekommen, färbt Bouncer das Feld blau, um seinen Erfolg zu 
 
 Achten Sie darauf, dass Ihre Lösung für beliebige Pfade innerhalb der Karte funktioniert.
 Sie können überprüfen, ob Ihre Lösung dieser Vorgabe entspricht, indem Sie die im Starterpaket mitgelieferte
-zweite Karte Labyrinth2.xml laden und mit Ihrem Code testen.
+zweite Karte Path2.xml laden und mit Ihrem Code testen.
 
 Für den Pfad gelten folgende Bedingungen:
 - Der Pfad ist immer grün und das Zielfeld ist immer rot
